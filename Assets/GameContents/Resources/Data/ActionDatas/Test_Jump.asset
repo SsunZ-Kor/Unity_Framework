@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 784a03bea8955b249832263e32d05f6d, type: 3}
+  m_Name: Test_Jump
+  m_EditorClassIdentifier: 
+  ActionDesc: 
+  ActionSetName: 
+  Length: 1
+  TotalDamageWeight: 0
+  list_ActionEventAnimator:
+  - StartTime: 0
+    StateName: Jump
+    FadeTime: 0.1
+  list_ActionEventAttack: []
+  list_ActionEventShotFX: []
+  list_ActionEventStopFX: []
+  list_ActionEventLookAt:
+  - StartTime: 0
+    EndTime: 1
+    lookAtType: 2
+    angularVelocity: 50
+    FixedToInitial: 1
+  list_ActionEventMove:
+  - StartTime: 0
+    EndTime: 1
+    GroundMove: 0
+    MoveSpdPerSec: 3
+    moveType: 1
+    moveHorizontalDegreeds: 0
+    FixedToInitial: 0
+  list_ActionEventMoveByVelocity:
+  - StartTime: 0
+    MoveSpdPerSec: 10
+    moveType: 1
+    moveHorizontalDegreeds: 0
+    moveVerticalDegreeds: -70
+  list_ActionEventProjectile: []
+  list_ActionEventShotSFX: []
+  list_ActionEventStopSFX: []
+  list_ActionEventCamMove: []
+  list_ActionEventAddStat: []

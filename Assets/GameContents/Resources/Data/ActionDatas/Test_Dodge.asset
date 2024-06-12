@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 784a03bea8955b249832263e32d05f6d, type: 3}
+  m_Name: Test_Dodge
+  m_EditorClassIdentifier: 
+  ActionDesc: 
+  ActionSetName: 
+  Length: 0.6666667
+  TotalDamageWeight: 0
+  list_ActionEventAnimator:
+  - StartTime: 0
+    StateName: Dodge
+    FadeTime: 0.1
+  list_ActionEventAttack: []
+  list_ActionEventShotFX: []
+  list_ActionEventStopFX: []
+  list_ActionEventLookAt:
+  - StartTime: 0
+    EndTime: 0.6666667
+    lookAtType: 2
+    angularVelocity: 3240
+    FixedToInitial: 1
+  list_ActionEventMove:
+  - StartTime: 0
+    EndTime: 0.5
+    GroundMove: 0
+    MoveSpdPerSec: 10
+    moveType: 1
+    moveHorizontalDegreeds: 0
+    FixedToInitial: 1
+  list_ActionEventMoveByVelocity: []
+  list_ActionEventProjectile: []
+  list_ActionEventShotSFX: []
+  list_ActionEventStopSFX: []
+  list_ActionEventCamMove: []
+  list_ActionEventAddStat:
+  - StartTime: 0
+    Stat: 0
+    Value: -1

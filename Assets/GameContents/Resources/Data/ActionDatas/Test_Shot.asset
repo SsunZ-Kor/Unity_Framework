@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 784a03bea8955b249832263e32d05f6d, type: 3}
+  m_Name: Test_Shot
+  m_EditorClassIdentifier: 
+  ActionDesc: 
+  ActionSetName: 
+  Length: 0.33333334
+  TotalDamageWeight: 1
+  list_ActionEventAnimator:
+  - StartTime: 0
+    StateName: Attack
+    FadeTime: 0.1
+  list_ActionEventAttack: []
+  list_ActionEventShotFX: []
+  list_ActionEventStopFX: []
+  list_ActionEventLookAt:
+  - StartTime: 0
+    EndTime: 0.33333334
+    lookAtType: 1
+    angularVelocity: 3240
+    FixedToInitial: 0
+  list_ActionEventMove: []
+  list_ActionEventMoveByVelocity: []
+  list_ActionEventProjectile:
+  - StartTime: 0
+    TransformName: Offset_Shot
+    UseAimDirection: 1
+    vOffsetPos: {x: 0, y: 0, z: 0}
+    qOffsetRot: {x: 0, y: 0, z: 0, w: 1}
+    bFollow: 0
+    ProjPrfDir: FX/Projectile
+    ProjPrfName: Proj_Test
+    attackData:
+      damageWeight: 1
+      hitType: 0
+      hitOffset: {x: 0, y: 0, z: 0}
+      hitPower: 0
+      TrName_Attach: 
+      hitFxDir: 
+      hitFxName: 
+      hitSfxDir: 
+      hitSfxName: 
+  list_ActionEventShotSFX: []
+  list_ActionEventStopSFX: []
+  list_ActionEventCamMove:
+  - StartTime: 0
+    CamMoveInfo:
+      AddOffset: {x: 0, y: 0, z: 0.457}
+      ReachTime: 0.1
+      StayTime: 1
+      ComebackTime: 0.3
+    bResetCamPos: 0
+  - StartTime: 0
+    CamMoveInfo:
+      AddOffset: {x: 0, y: 0, z: 0.457}
+      ReachTime: 0.1
+      StayTime: 1
+      ComebackTime: 0.3
+    bResetCamPos: 0
+  list_ActionEventAddStat: []

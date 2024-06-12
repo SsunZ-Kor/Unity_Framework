@@ -1,0 +1,12 @@
+{
+  "dataList": [
+    {
+      "Id": 0,
+      "Name": "Test",
+      "RootActionName": "Test_Idle",
+      "MaxBullet": 12,
+      "BulletReloadTime": 3,
+      "ATK": 5
+    }
+  ]
+}

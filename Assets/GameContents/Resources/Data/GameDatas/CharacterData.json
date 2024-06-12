@@ -1,0 +1,22 @@
+{
+  "dataList": [
+    {
+      "Id": 1,
+      "Name": "Dao",
+      "WeaponDataName": "Test",
+      "MaxHP": 100,
+      "MaxDodge": 3,
+      "DodgeReloadTime": 1,
+      "ModelPrefabPath": "Character/Prefab_Character/Dao/Ch_Dao"
+    },
+    {
+      "Id": 2,
+      "Name": "Dijin",
+      "WeaponDataName": "Test",
+      "MaxHP": 100,
+      "MaxDodge": 3,
+      "DodgeReloadTime": 1,
+      "ModelPrefabPath": "Character/Prefab_Character/Dijin/Ch_Dijin"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 784a03bea8955b249832263e32d05f6d, type: 3}
+  m_Name: Test_NearAttack
+  m_EditorClassIdentifier: 
+  ActionDesc: 
+  ActionSetName: 
+  Length: 1
+  TotalDamageWeight: 1
+  list_ActionEventAnimator: []
+  list_ActionEventAttack:
+  - StartTime: 0
+    EndTime: 1
+    AttackColName: AttackCol_Test
+    attackData:
+      damageWeight: 1
+      hitType: 0
+      hitOffset: {x: 0, y: 0, z: 0}
+      hitPower: 0
+      TrName_Attach: 
+      hitFxDir: 
+      hitFxName: 
+      hitSfxDir: 
+      hitSfxName: 
+  list_ActionEventShotFX: []
+  list_ActionEventStopFX: []
+  list_ActionEventLookAt: []
+  list_ActionEventMove: []
+  list_ActionEventMoveByVelocity: []
+  list_ActionEventProjectile: []
+  list_ActionEventShotSFX: []
+  list_ActionEventStopSFX: []
+  list_ActionEventCamMove: []
+  list_ActionEventAddStat: []
